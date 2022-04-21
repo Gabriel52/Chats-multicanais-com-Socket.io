@@ -20,3 +20,51 @@ Então você recebe a missão de resolver isso criando uma ferramenta para a emp
 
 | [<img src="https://media-exp1.licdn.com/dms/image/C4D03AQF24Qjp38-nvA/profile-displayphoto-shrink_100_100/0/1607781263199?e=1655942400&v=beta&t=uBr_NFIhg2E1izmd56mmuDeljyOsJvwa8gTHPsTkRQo" width="75px;"/>](https://github.com/Gabriel52) |
 
+## :rocket: Para rodar a aplicação
+
+  ```bash
+
+# Clone este repositório
+$ git clone https://github.com/Gabriel52/Chats-multicanais-com-Socket.io
+
+# Acesse a pasta do projeto no seu terminal/cmd
+$ cd chat-multichannel-socket
+
+# ----------------- Servidor -------------------
+$ cd server
+
+# ----------------- Aplicação -------------------
+$ cd frontend
+
+#Execute as etapas abaixo tanto so server como no front
+
+# Execute o comando nas pastas server/web/mobile para instalar todas as dependências
+$ npm install ou yarn
+
+# Execute a aplicação em modo de desenvolvimento, é importante executar este
+# comando primeiro no server depois no web
+$ npm run dev ou yarn dev
+
+# A aplicação web será aberta na porta:3000 - acesse http://localhost:3000
+
+```
+## 🛠 Tecnologias
+
+  * [Node.js](https://nodejs.org/en/) (Back-End);
+
+  * [ReactJS](https://reactjs.org/) (Web Front-End);
+
+  * [Socket](https://socket.io/docs/v4/client-api/) (Comunicação com o servidor);
+
+  * [SQLite](https://www.sqlite.org/index.html) (Banco de Dados);
+
+## :book: Licença
+<p>Lançado em 2022 :book:</p></br>
+<p>Feito por Gabriel Brune :rocket:. Este projeto está sobre a licença do MIT</p></br>
+
+<p>Dar uma :star: se este projeto te ajudou</p></br>
+
+## 🐛 Problemas
+<p>Sinta-se à vontade para registrar um novo problema com o respectivo título e descrição no repositório. Se você já encontrou uma solução para seu problema, eu adoraria revisar sua solicitação de pull!</p>
+
+
